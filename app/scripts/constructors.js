@@ -36,6 +36,24 @@ function expect(target) {
 // 
 // ANSWERS GO HERE
 
+var Dog = function (trait){
+  var traits = trait || {};
+  
+  this.color = trait.color;
+  this.hungry = trait.hungry;
+  this.status= trait.status;
+};
+
+var Human = function (trait){
+  var trait = trait || {};
+
+  this.cool = trait.cool;
+  this.status= trait.status;
+  this.pet = function(dog, current-trait){
+    dog.status= current-trait;
+  };
+};
+
 // END ANSWERS
 
 //        __                
