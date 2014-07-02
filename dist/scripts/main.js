@@ -42,7 +42,7 @@ var Dog = function (trait) {
   
   this.color = trait.color;
 
-  this.hungry = trait.hungry || true;
+  this.hungry = (trait.hungry === undefined) ? true : trait.hungry;
   
   this.status = 'normal';
 };
