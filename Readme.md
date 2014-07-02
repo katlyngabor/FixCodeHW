@@ -1,3 +1,11 @@
-## Yo, I'm a Readme
+Tuesday: Week 5 HW
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+*Correcting Code*
+
+In this assignment, we were given a constructors.js file, in which we had to make constructors that would pass all tests provided by the Iron Yard. 
+
+
+Link to final product:
+http://fix-code-hw.herokuapp.com/ 
+
+	Inspect element to view :)
